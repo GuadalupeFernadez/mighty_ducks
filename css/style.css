@@ -1,34 +1,81 @@
 *{
     padding: 0;
-    margin: 0px 20px;
+    margin: 0px 0px;
     box-sizing: border-box;
     font-family: 'Courier New', Courier, monospace;
 }
-#banner{
-    max-width: 100%;
-    border: 1px solid black;
-    margin: 0%;
-    height: 350px;
-    width: 100%;
+body{
+    background-image: url(../Imagenes/Fondo.jpg);
+    margin: 10px;
+}
+header{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    background-image: url( ../Imagenes/design1_image2.jpg);
+    background-position: left;
+    background-size: cover;
+    height: 276px;
+    align-items: flex-start;
+}
+header> h1{
+    width: 80%;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    -webkit-text-stroke: 1.5px rgb(197, 72, 50);
+    color: rgb(248, 225, 46);
+    text-shadow: -3px 0px 2px rgb(89, 151, 144, 1); /* el primer numero el lado del sombreado si es neg es izq, el segundo es arriba o abajo y el tercero es el difuminado */
+    padding-top: 23px;
 }
 #posicion{
-    background-color: rgb(112, 173, 71);
+    background-color: rgb(197, 72, 50);
+    color: aliceblue;
 }
 nav>a{
     text-decoration: none;
     display: inline-block;
     padding: 5px;
-    margin: 10px 0px 10px 10px;
-    background-color: rgb(68, 114, 196);
+    margin: 0px 0px 10px 10px;
+    background-color: rgb(89, 151, 144);
     color: aliceblue;
-    box-shadow: 5px 5px 5px rgb(56, 53, 53);
+    box-shadow: -5px 5px 3px rgb(56, 53, 53);
     border: 1px solid black;
 }
 nav{
-    text-align: right;
-    position: absolute;
-    top:12px; right: 90px;
+    width: 100%;
+    padding-top: 125px;
+    padding-right: 19px;
+    display: flex;
+    justify-content: flex-end;
 }
+dt{
+    font-weight: bold;
+}
+dd{
+    padding-left: 50px;
+    padding-bottom: 20px;
+    padding-top: 5px;
+}
+dl{
+    width: 73%;
+}
+main{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+h3{
+    font-size: x-large;
+    width: 100%;
+    padding-top: 10px;
+}
+img{
+    border-radius: 34%;
+    border: 2px groove;
+}
+
+/* 
+
 h3{
     text-align: center;
     border: 1px solid black;
@@ -68,4 +115,4 @@ section{
 #contacto{
     text-align: center;
     top: 130px;
-}
+}*/
