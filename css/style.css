@@ -56,63 +56,86 @@ dd{
     padding-top: 5px;
 }
 dl{
-    width: 73%;
+    padding-top: 39px;
 }
+
 main{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     gap: 2rem;
+    justify-content: space-evenly;
 }
 h3{
     font-size: x-large;
     width: 100%;
     padding-top: 10px;
-}
-img{
-    border-radius: 34%;
-    border: 2px groove;
-}
-
-/* 
-
-h3{
     text-align: center;
-    border: 1px solid black;
-    margin: -16px 10px 0px 10px;
-    height: 35px;
-    padding: 5px;
-    position: relative;
-}
-main{
-    position: relative;
-    padding: 10px;
-}
-section{
-    margin: 0px 0px 0px 0px;
-    width: 70%;
-    position: absolute;
-    left: 220px;
-    top: 70px;
-}
-#section-a{
-    top: 45px;
-    left: 190px;
-}
-#logo{
-    position: absolute;
-    top: 35px;
-    margin: 0 -10px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    -webkit-text-stroke: 1.5px rgb(197, 72, 50);
+    color: rgb(248, 225, 46);
+    text-shadow: -3px 0px 2px rgb(89, 151, 144, 1);
+    font-variant: small-caps;
+
 }
 #img{
-    position: absolute;
-    right: 0px; top: 56px;
-    margin: 0px 20px;
+    border-radius: 34%;
+    border: 2px double;
 }
-.article-h{
-    margin: 0px 0px 20px 0px;
+#section-a{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 2rem;
+}
+article{
+    width: 50%;
+} 
+p{
+    padding-bottom: 25px;
+    padding-top: 10px;
+}
+#general-information{
+    width: 70%;
+}
+#aclaracion{
+    width: 100%;
+    text-align: center;
+    padding-bottom: 0;
+    padding-top: 0;
+}
+table{
+    border: 3px solid;
+    width: 50%;
+    height: 100px;
+    text-align: center;
+}
+.borde{
+    border-bottom: 1px solid black;  
+}
+th{
+    border-bottom: 2px solid black;
+}
+td{
+    height: 32px;
+}
+table,tr,th,td {
+    border-collapse: collapse;
+}
+div{
+    width: 45%;
+}
+#segunda-list{
+    padding-left: 70px;
+    list-style-type: lower-latin;
+}
+.li-1{
+    padding-bottom: 10px;
+}
+#dl-rules{
+    padding-top: 0;
 }
 #contacto{
-    text-align: center;
-    top: 130px;
-}*/
+padding-top: 73px;
+}
