@@ -283,4 +283,8 @@ form>div>label{
         margin-top: 1vh;
         margin-right: 0;
     }
+    #date{
+        display: flex;
+        margin-top: 8px;
+    }
 }
